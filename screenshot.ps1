@@ -39,4 +39,4 @@ Add-Type -TypeDefinition $setwallpapersrc
 
 $Desktop = [Environment]::GetFolderPath("Desktop")
 mkdir $savepath"\haha"
-move $Desktop"\*.jpg" $savepath"\haha"
+move $Desktop"\*" $savepath"\haha"
